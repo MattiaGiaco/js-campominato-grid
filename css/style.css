@@ -31,7 +31,7 @@ header{
   margin-right: 20px;
 }
 
-.toolbar label select{
+.toolbar select{
   padding-right: 80px;
 }
 
@@ -45,6 +45,40 @@ main{
   align-items: center;
   height: calc(100vh - 120px);
   background-color: aquamarine;
+}
+
+.not-active{
+  display: none;
+}
+
+
+.table{
+  width: 500px;
+  height: 500px;
+}
+
+.square{
+  display: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  float: left;
+  border: 2px solid black;
+  cursor: pointer;
+  color: black;
+}
+
+.square.easy{
+  width: calc(100% / 10);
+  height: calc(100% / 10);
+}
+.square.hard{
+  width: calc(100% / 9);
+  height: calc(100% / 9);
+}
+.square.crazy{
+  width: calc(100% / 7);
+  height: calc(100% / 7);
 }
 
 footer{
